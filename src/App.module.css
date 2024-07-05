@@ -513,7 +513,7 @@
     bottom: -6%;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1441px) and (max-width: 1679px) {
   .absolute10 {
     width: 19rem;
   }
@@ -525,5 +525,41 @@
   }
   .images {
     min-height: 562.75px;
+  }
+}
+
+@media (min-width: 1680px) {
+  .tabContentWrapperRight span {
+    font-size: 1.3rem;
+  }
+  .tabContentWrapperRight h2 {
+    font-size: 2.2rem;
+  }
+  .tabContentWrapperRight p {
+    font-size: 1.3rem;
+  }
+  .tabContentWrapperRight a {
+    font-size: 1.35rem;
+  }
+  .absolute10 {
+    width: 23rem;
+  }
+  .absolute11 {
+    width: 27rem;
+  }
+  .absolute12 {
+    width: 29rem;
+  }
+  .absolute7 {
+    left: 19%;
+    transform: scale(1.15) !important;
+  }
+  .absolute8 {
+    left: 44%;
+    transform: scale(1.15) !important;
+  }
+  .absolute9 {
+    left: 67%;
+    transform: scale(1.15) !important;
   }
 }
